@@ -12,28 +12,28 @@ import ServiceIconFour from "../icons/service4-icon.tsx"
 
 const services = [
 	{
-		title: 'Project Plan',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Masajes Terapéuticos',
+		text: 'Una variedad de masajes diseñados para aliviar el estrés, reducir la tensión muscular y promover la relajación profunda'
 	},
 	{
-		title: 'Interior Work',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Tratamientos Faciales',
+		text: 'Tratamientos faciales personalizados para rejuvenecer la piel, mejorar la textura y combatir los signos del envejecimiento'
 	},
 	{
-		title: 'Realization',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Manicura y Pedicura',
+		text: 'cuidado de manos y pies,  tratamientos de spa de lujo con exfoliación, hidratación profunda y esmalte de alta calidad '
 	},
 	{
-		title: '2d/3d Art Work',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Depilación',
+		text: 'Técnicas de depilación eficaces y seguras para eliminar el vello no deseado en diferentes áreas del cuerpo'
 	},
 	{
-		title: 'Retail design',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Tratamientos de Spa Corporales',
+		text: 'incluyen envolturas corporales purificantes, exfoliaciones revitalizantes y tratamientos de hidratación profunda'
 	},
 	{
-		title: 'Decoration Work',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Terapias Holísticas',
+		text: 'para equilibrar el cuerpo, la mente y el espíritu, como terapias de aromaterapia, reflexología, yoga o meditación guiada'
 	},
 ]
 
@@ -42,32 +42,32 @@ const howWeWorkDetails = [
     imgIcon: ServiceIconOne,
     numIcon: One,
     img: '/service1.png',
-    title: 'Concept & Details',
-    info:'It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.'
+    title: 'Asesoría personalizada',
+    info:'Comunícate con nosotros por medio de algunos de nuestros canales de atención, y te ayudaremos a encontrar el servicio que necesitas y que más se adecue a ti.'
 
   },
   {
     imgIcon: ServiceIconTwo,
     numIcon: Two,
     img: '/service2.png',
-    title: 'Idea For Work',
-    info:'It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.'
+    title: 'Agenda tu cita',
+    info:'Cuando ya conoces los tratamientos a realizar, Agenda tu cita y te brindaremos un horario para que asistas comodamente.'
 
   },
   {
     imgIcon: ServiceIconThree,
     numIcon: Three,
     img: '/service3.png',
-    title: 'Design',
-    info:'It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.'
+    title: 'Asiste a tu cita',
+    info:'Recuerda que algunos tratamientos requieren de cuidados previos, estos se te comunicaron en el momento de agendar la cita, no lo olvides. '
 
   },
   {
     imgIcon: ServiceIconFour,
     numIcon: Four,
     img: '/service4.png',
-    title: 'Perfection',
-    info:'It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.'
+    title: 'Disfruta de tu tratamiento',
+    info:'Es el momento de sentirte aún más segura contigo misma, te esperamos en Arte y Belleza.'
 
   },
 ]
@@ -80,8 +80,8 @@ const howWeWorkDetails = [
 
   <section class="w-full bg-services h-[50vh] flex justify-center items-end">
     <div class="py-[30px] lg:py-[41px] px-[60px] lg:px-[152px] flex flex-col justify-center items-center bg-white rounded-tl-[37px] rounded-tr-[37px] gap-2.5">
-      <h1 class="text-[30px] leading-[40px] lg:text-[50px] lg:leading-[62px] font-dm capitalize text-primary-200 ">Services</h1>
-      <p class="text-base lg:text-[22px] lg:leading-[33px] tracking-tight font-jost text-text-gray"> <a href="/">Home</a> / Services </p>
+      <h1 class="text-[30px] leading-[40px] lg:text-[50px] lg:leading-[62px] font-dm capitalize text-primary-200 ">Servicios</h1>
+      <p class="text-base lg:text-[22px] lg:leading-[33px] tracking-tight font-jost text-text-gray"> <a href="/">Inicio</a> / Servicios </p>
     </div>
   </section>
 
@@ -92,7 +92,7 @@ const howWeWorkDetails = [
 			services.map((service) => {
 				return (
 					<div class="w-full col-span-1 max-w-[358px] mx-auto flex rounded-[30px] hover:bg-primary-300 px-5 py-[83px] flex-col justify-center items-center gap-3 md:gap-5">
-						<h3 class="text-text-blue font-dm text-[22px] md:text-[25px] leading-loose">{service.title}</h3>
+						<h3 class="text-text-blue font-dm text-[22px] text-center md:text-[25px] leading-loose">{service.title}</h3>
 						<p class="text-base md:text-[22px] tracking-tight font-jost text-text-gray leading-[33px] text-center"> {service.text}</p>
 						
 					</div>
@@ -104,10 +104,10 @@ const howWeWorkDetails = [
   <!-- How We Work Section -->
   <section class="px-12 xl:px-0 w-full mt-[100px] lg:mt-[200px] min-h-screen ">
    <div class="w-full lg:max-w-[1200px] p-12 mx-auto lg:px-[116px] lg:py-[160px] bg-primary-300 rounded-[70px] ">
-     <h2 class="font-dm tracking-wide text-center leading-[37px] lg:leading-[62.50px] text-[30px] lg:text-[50px] w-full capitalize lg:max-w-[50%] pb-2 mx-auto">How We Work</h2>
-		<p class="text-base md:text-[22px] text-center tracking-tight font-jost text-text-gray leading-[33px] lg:max-w-[60%] mx-auto">It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
+     <h2 class="font-dm tracking-wide text-center leading-[37px] lg:leading-[62.50px] text-[30px] lg:text-[50px] w-full capitalize lg:max-w-[70%] pb-2 mx-auto">Inicia un tratamiento con nosotros</h2>
+		<p class="text-base md:text-[22px] text-center tracking-tight font-jost text-text-gray leading-[33px] lg:max-w-[60%] mx-auto">Esta es la forma en la que podremos ayudarte</p>
 
-    <div class="pt-[70px] lg:pt-[100px] flex flex-col gap-[70px] ">
+    <div class="pt-[50px] lg:pt-[100px] flex flex-col gap-[70px] ">
       <!-- Inner Sections -->
 
       {

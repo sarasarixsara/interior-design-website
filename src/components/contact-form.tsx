@@ -46,7 +46,7 @@ const ContactForm = () => {
         ></textarea>
 
         <div className="w-full flex justify-end col-span-2">
-          <Button text="Submit" type="submit" />
+          <Button text="Enviar" type="submit" />
         </div>
       </form>
     </div>

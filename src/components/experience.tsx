@@ -25,7 +25,7 @@ const Experience = ({
         /> */}
         {num}
       </h5>
-      <p className="text-text-gray-200 text-base text-center lg:text-lg font-jost tracking-tight lg:leading-9">
+      <p className="text-text-gray-200 text-base text-justify lg:text-lg font-jost tracking-tight lg:leading-9">
         {text}
       </p>
     </div>
