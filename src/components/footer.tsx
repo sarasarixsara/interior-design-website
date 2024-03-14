@@ -14,7 +14,7 @@ const Footer = () => {
             <Logo />
           </a>
           <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray pt-[18px] pb-[33px]">
-          Descubre en Arte y Belleza un refugio de paz donde tu serenidad y belleza se fusionan en armonía.
+          Descubre en Armonia y Belleza un refugio de paz donde tu serenidad y belleza se fusionan en armonía.
           </p>
           <div className="flex gap-5 md:gap-[54px]">
             <a href="/">
