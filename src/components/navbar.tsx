@@ -90,7 +90,7 @@ const Navbar = () => {
       >
         <a href={`${generateLink()}`} target="_blank">
           <img
-            src="../../public/whsp-button.png"
+            src="/whsp-button.png"
             alt="Descripción de la imagen"
             width={"50"}
           />
