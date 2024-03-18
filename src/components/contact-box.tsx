@@ -11,11 +11,11 @@ const ContactInfo = () => {
       </h5>
       <h5 className="flex flex-col xl:flex-row gap-4 items-center text-xl font-jost tracking-tight">
         {" "}
-        <Phone /> +1 (378) 400-1234
+        <Phone /> 311 8357252
       </h5>
       <h5 className="flex flex-col xl:flex-row gap-4 items-center text-xl font-jost tracking-tight">
         {" "}
-        <Web /> www.yourdomain.com
+        <Web /> www.armoniaybelleza.com
       </h5>
     </div>
   );
