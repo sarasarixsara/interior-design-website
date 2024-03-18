@@ -8,7 +8,9 @@ const Navbar = () => {
   const matches = useMediaQuery("(min-width: 1280px)");
 
   const linkStyle = "text-xl leading-6 font-jost text-primary-200";
-
+  const generateLink = () => {
+    return "https://wa.link/hu16ao";
+  };
   return (
     <div className="max-w-[1200px] px-12 xl:px-0 m-auto w-full py-11 flex justify-between items-center">
       <a href="/">
@@ -78,6 +80,22 @@ const Navbar = () => {
           </a>
         </motion.nav>
       )}
+      <div
+        style={{
+          position: "fixed",
+          bottom: "30px",
+          right: "30px",
+          zIndex: "999",
+        }}
+      >
+        <a href={`${generateLink()}`} target="_blank">
+          <img
+            src="../public/whsp-button.png"
+            alt="Descripción de la imagen"
+            width={"50"}
+          />
+        </a>
+      </div>
     </div>
   );
 };
