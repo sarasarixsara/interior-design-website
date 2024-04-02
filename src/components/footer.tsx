@@ -17,7 +17,7 @@ const Footer = () => {
           Descubre en Armonia y Belleza un refugio de paz donde tu serenidad y belleza se fusionan en armonía.
           </p>
           <div className="flex gap-5 md:gap-[54px]">
-            <a href="/">
+            {/* <a href="/">
               <Facebook />
             </a>
             <a href="/">
@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
             <a href="/">
               <LinkedIn />
-            </a>
+            </a> */}
             <a href="/">
               <Instagram />
             </a>
