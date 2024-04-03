@@ -81,9 +81,7 @@ const Footer = () => {
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
             Manzana E casa 28. Barrio Portales del Norte
             </p>
-            <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              contact@interno.com
-            </p>
+
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
               311 8357252
             </p>

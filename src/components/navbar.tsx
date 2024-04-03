@@ -15,7 +15,8 @@ const Navbar = () => {
     <div className="max-w-[1200px] px-12 xl:px-0 m-auto w-full py-11 flex justify-between items-center">
       <a href="/">
         {" "}
-        <Logo />
+        {/* <Logo /> */}
+        <h5 className="font-dm text-4xl tracking-wide font-bold text-primary-200">Monica Baron</h5>
       </a>
 
       {/* Nav List for Desktop */}
