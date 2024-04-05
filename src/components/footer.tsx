@@ -10,9 +10,11 @@ const Footer = () => {
       <div className="w-full max-w-[1200px] px-12 xl:px-0 mx-auto pb-[135px] grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-6">
         {/* start */}
         <div className="col-span-1 md:col-span-2">
-          <a href="/" className="">
-            <Logo />
-          </a>
+        <a href="/">
+        {" "}
+        {/* <Logo /> */}
+        <h5 className="font-dm text-4xl tracking-wide font-bold text-primary-200">Monica Baron</h5>
+      </a>
           <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray pt-[18px] pb-[33px]">
           Descubre en Armonia y Belleza un refugio de paz donde tu serenidad y belleza se fusionan en armonía.
           </p>
